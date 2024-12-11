@@ -1,0 +1,63 @@
+
+#game {
+position: relative;
+height: 90vh;
+}
+
+
+.card-container {
+    flex-wrap: wrap;
+    position: absolute; /* Positions the item using top/left properties */ 
+  }
+  
+  .card {
+    top: 90px;
+    position: relative;
+    margin-top: -90px;
+    width: 113.071429px; 
+    height: 124.25px; 
+    background-image: url('cards.png'); 
+    background-size: auto;
+    background-position: 0 0;
+  }
+
+
+  #dealer {
+    top:5%;
+    left: 50%;
+  }
+  
+  #hand-0 {
+    top:10%;
+    left: 20%;
+  }
+
+  #hand-1 {
+    top:20%;
+    left: 30%;
+  }
+
+  #hand-2 {
+    top:30%;
+    left: 40%;
+  }
+
+  #hand-3 {
+    top:40%;
+    left: 50%;
+  }
+
+  #hand-4 {
+    top:30%;
+    left: 60%;
+  }
+
+  #hand-5 {
+    top:20%;
+    left: 70%;
+  }
+
+  #hand-6 {
+    top:10%;
+    left: 80%;
+  }
